@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{page_title}}</title>
+</head>
+<style>body{font-family:Helvetica, serif; background-color:powderblue}
+.f{float:left;text-align:left;max-width:30em;height:44em; overflow:hidden;margin-bottom:1em;margin-right:2em;background:#efefff;}
+.fo td{vertical-align:top}
+</style>
+<h1>Top rated movie results for {{name}}</h1>
+<body>
+
+<div class='film'>
+    <table>
+        <th>
+            <thcolspan='2'>{{film_title}}</th>
+        <tr>
+            <td>
+                <strong>Popularity:</strong> {{popularity}}
+
+            </td>
+            <td>
+                <strong>Overview of the movie:</strong> {{film_overview}}
+            </td>
+        </tr>
+    </table>
+
+</div>
+
+</body>
+</html>
